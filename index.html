@@ -1,333 +1,1420 @@
+<!doctype html>
+<!---->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>this is my blog :3</title>
-		<meta name="author" content="name">
-    <meta name="description" content="description here">
-		<meta name="keywords" content="keywords,here">
-		<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
-
-
-</head>
-<body class="bg-gray-200 font-sans leading-normal tracking-normal">
-
-    <!--Music-->
-	<audio autoplay preload="metadata">
-		<source src="music/ThanhXuan-DaLAB-5773854.mp3" type="audio/mpeg" />
-	  </audio>
-
-	<!--Header-->
-	<div class="w-full m-0 p-0 bg-cover bg-bottom" style="background-image:url('img/cover.jpg'); height: 60vh; max-height:460px;">
-			<div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
-				<!--Title-->
-					<p class="text-white font-extrabold text-3xl md:text-5xl">
-						✨ Do Tran Binh ✨
-					</p>
-
-					<p class="text-xl md:text-2xl text-white">Welcome to my Blog</p>
-			</div>
-		</div>
+<html lang="en-gb" class="no-js">
+  <head>
+    <meta charset="utf-8">
+	<title>»jw's blog«</title>
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">		
 		
-		<!--Container-->
-		<div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
-			
-			<div class="mx-0 sm:mx-6">
-				
-				<!--Nav-->
-				<nav class="mt-0 w-full">
-					<div class="container mx-auto flex items-center">
-						
-						<div class="flex w-1/2 pl-4 text-sm">
-							<ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
-								<li class="mr-2">
-								<a class="inline-block py-2 px-2 text-white no-underline hover:underline" href="index.html">HOME</a>
-								</li>
-								<li class="mr-2">
-								<a class="inline-block text-red-100 no-underline hover:text-white-200 hover:underline py-2 px-2" href="#">ABOUT ME</a>
-								</li>
-								<li class="mr-2">
-								<a class="inline-block text-red-100 no-underline hover:text-white-200 hover:underline py-2 px-2" href="#">MY GALLERY</a>
-								</li>
-								<li class="mr-2">
-								<a class="inline-block text-red-100 no-underline hover:text-white-200 hover:underline py-2 px-2" href="index.html">CONTACT</a>
-								</li>
-							</ul>
-						</div>
+	<!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      
+
+     <!--styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" href="css/etlinefont.css">
+    <link href="css/style.css" type="text/css"  rel="stylesheet"/>
 
 
-						<div class="flex w-1/2 justify-end content-center">		
-							<a class="inline-block text-red-100 no-underline hover:text-white hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 avatar" data-tippy-content="@twitter_handle" href="https://twitter.com">
-								<svg class="fill-current h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"></path></svg>
-							</a>
-							<a class="inline-block text-red-100 no-underline hover:text-white hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 avatar" data-tippy-content="#facebook_id" href="https://www.facebook.com">
-								<svg class="fill-current h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"></path></svg>
-							</a>
-						</div>
+   <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    
+	<body  data-spy="scroll" data-target="#main-menu">
+ 
 
-					</div>
-				</nav>
-
-				<div class="bg-gray-200 w-full text-xl md:text-2xl text-gray-800 leading-normal rounded-t">
-					
-				<!--Lead Card-->
-				<div class="flex h-full bg-white rounded overflow-hidden shadow-lg">
-					<a href="post.html" class="flex flex-wrap no-underline hover:no-underline">
-						<div class="w-full md:w-2/3 rounded-t">	
-							<img src="https://source.unsplash.com/collection/494263/800x600" class="h-full w-full shadow">
-						</div>
-
-						<div class="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
-							<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-								<p class="w-full text-gray-600 text-xs md:text-sm pt-6 px-6">text</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">👋 text</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									text
-								</p>
+  <!--Start Page loader -->
+  <div id="pageloader">   
+        <div class="loader">
+          <img src="images/progress.gif" alt='loader' />
+        </div>
+   </div>
+   <!--End Page loader -->
+   
+      
+   <!--Start Navigation-->
+		<header id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="fa fa-bars"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+                            <!--Start Logo -->
+							<div class="logo-nav">
+								<a href="index.html">
+									<img src="images/logo.png" alt="My logo" />
+								</a>
 							</div>
+                            <!--End Logo -->
+							<div class="clear-toggle"></div>
+							<div id="main-menu" class="collapse scroll navbar-right">
+								<ul class="nav">
+                                
+									<li class="active"> <a href="#home">Home</a> </li>
+									
+									<li> <a href="#about">About me</a> </li>
+                                    
+                                    <li> <a href="#history">My History</a> </li>
+                                    
+                                    <li> <a href="#hobbies">Hobbies</a> </li>
+                                    
+                                     <li> <a href="#team">Team</a> </li>
+                                   
+								    <li> <a href="#services">Services</a> </li>
+                                     
+									<li> <a href="#contact">Contact</a> </li>
+										
+								</ul>
+							</div><!-- end main-menu -->
+						</div>
+					</div>
+				</div>
+			</header>
+    <!--End Navigation-->
 
-							<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-								<div class="flex items-center justify-between">
-									<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-									<p class="text-gray-600 text-xs md:text-sm">text</p>
+      
+        <!-- Start Slider  -->
+        <section id="home" class="home">
+             <div class="slider-overlay"></div>
+            <div class="flexslider">
+                <ul class="slides scroll">
+                    <li class="first">
+                        <div class="slider-text-wrapper">  
+                            <div class="container">
+                                <div class="big">Welcome to my blog </div>          
+                                <div class="small">Do you want to know more about me?</div>
+                                <a href="#about" class="middle btn btn-white">VIEW MORE</a>
+                            </div>       
+                        </div>
+                        <img src="images/slider/1.jpg" alt="">
+                    </li>
+                    
+                    <li class="secondary">
+                        <div class="slider-text-wrapper"> 
+                            <div class="container">                       
+                                <div class="big">I'm a developer student at DUT</div>          
+                                <div class="small">From 2020 to 2024</div>
+                                <a href="#history" class=" middle btn btn-white">VIEW MORE</a>
+                            </div>
+                         </div>
+                        <img src="images/slider/2.jpg" alt="">
+                    </li>
+                    
+                    <li class="third">
+                        <div class="slider-text-wrapper"> 
+                            <div class="container">                              
+                                <div class="big">I'm chasing my dream</div>          
+                                <div class="small">Become a best developer</div>
+                                <a href="#hobbies" class="middle btn btn-white">VIEW MORE</a>
+                             </div>
+                        </div>
+                        <img src="images/slider/3.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+          <!-- End Slider  -->
+
+
+  <!--Start Features-->
+  <section  id="about" class="section">
+       <div class="container">
+           <div class="row">
+              
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-icon">
+                      <i class="fa fa-leaf"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>Clean & Modern Design</h4>
+                         <p>Lorem ipsum .</p>
+                      </div>
+                  </div>
+              </div>
+ 
+               <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-icon">
+                      <i class="fa fa-paper-plane"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>Illustration</h4>
+                         <p>Lorem ipsum.</p>
+                      </div>
+                  </div>
+              </div>
+
+               <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-icon">
+                     <i class="fa fa-life-saver"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>App Development</h4>
+                         <p>Lorem ipsum.</p>
+                      </div>
+                  </div>
+              </div>
+ 
+               <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-icon">
+                      <i class="fa fa-paint-brush"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>Web Development</h4>
+                         <p>Lorem ipsum.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-icon">
+                     <i class="fa fa-line-chart"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>Digital Design</h4>
+                         <p>Lorem ipsum.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-icon">
+                      <i class="fa fa-gift"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>Fully Responsive</h4>
+                         <p>Lorem ipsum.</p>
+                      </div>
+                  </div>
+              </div>
+
+              
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+  </section> 
+  <!--End Features-->
+
+ 
+  <!-- Start Facts-->
+  <section id="facts" class="section parallax">
+    <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+                  
+                <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                    <span><i class="icon-happy"></i></span>
+                    <h3>0</h3>
+                    <span>Happy Clients</span>
+                </div>
+                <!-- End Item-->
+ 
+                 <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                 <span><i class="icon-presentation"></i></span>
+                    <h3>15</h3>
+                    <span>Projects</span>
+                </div>
+                <!-- End Item-->
+
+                 <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                 <span><i class="icon-target"></i></span>
+                    <h3>18203</h3>
+                    <span>Lines of Code</span>
+                </div>
+                <!-- End Item-->
+
+                 <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                 <span><i class="icon-trophy"></i></span>
+                    <h3>03</h3>
+                    <span>Awards Won</span>
+                </div>
+                <!-- End Item-->
+
+             </div> <!-- /.row -->
+       </div> <!-- /.container -->
+  </section>
+  <!--End Facts-->
+
+  
+  <!--Start Section-->
+ <section class="section">
+      <div class="container">
+          <div class="row"> 
+                <div class="col-md-12">
+					<div class="content-tab-1">
+						<ul class="nav">
+							<li class="active">
+								<a aria-expanded="true" href="#tab-content-1" data-toggle="tab">
+								<i class="fa fa-desktop"></i>
+								<h4>Responsive</h4>
+								</a>
+								<div class="tab-arrow">
 								</div>
-							</div>
-						</div>
+							</li>
+                            
+							  <li>
+								<a aria-expanded="true" href="#tab-content-2" data-toggle="tab">
+								<i class="fa fa-cubes"></i>
+								<h4>Flexible</h4>
+								</a>
+								<div class="tab-arrow">
+								</div>
+							</li>
+                            
+							<li>
+								<a aria-expanded="true" href="#tab-content-3" data-toggle="tab">
+								<i class="fa fa-institution"></i>
+								<h4>Support</h4>
+								</a>
+								<div class="tab-arrow">
+								</div>
+							</li>
+                            
+							  <li>
+								<a aria-expanded="true" href="#tab-content-4" data-toggle="tab">
+								<i class="fa fa-pagelines"></i>
+								<h4>Clean Design</h4>
+								</a>
+								<div class="tab-arrow">
+								</div>
+							</li>
+                            
+							  <li>
+								<a aria-expanded="true" href="#tab-content-5" data-toggle="tab">
+								<i class="fa fa-pie-chart"></i>
+								<h4>Easy to Use</h4>
+								</a>
+								<div class="tab-arrow">
+								</div>
+							</li>
+                            
+						</ul>
+                        
+						<div class="tab-content-main">
+								<div class="container">
+									<div class="tab-content">
+										<div class="tab-pane active in" id="tab-content-1">
+											
+                                           <!-- Features Icon-->	
+                                            <div class="col-md-6 margin-bottom-30">
+                                                <div class="tab1-features">
+                                                    <div class="icon"> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="info">
+                                                        <h4>Dedicated Support & Updates</h4>
+                                                        <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet. Et netus et malesuada fames ac turpis egestas tristique senectus. </p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="tab1-features">
+                                                    <div class="icon"> <i class="fa fa-codepen"></i> </div>
+                                                    <div class="info">
+                                                        <h4>multipurpose theme</h4>
+                                                        <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet. Et netus et malesuada fames ac turpis egestas tristique senectus. </p>
+                                                    </div>
+                                                </div>
+                                              
+                                                <div class="tab1-features">
+                                                    <div class="icon"> <i class="fa fa-heart-o"></i></div>
+                                                    <div class="info">
+                                                        <h4>Design With Love</h4>
+                                                        <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet. Et netus et malesuada fames ac turpis egestas tristique senectus. </p>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <!--End features Icon-->
+                                            
+                                           
+                                          <!--  Start Carousel-->
+                                          <div class="col-md-6">
+                                              <div class="tab-carousel">
+                                                    <div class="item"><img src="images/works/img4.jpg" alt=""></div>
+                                                    <div class="item"><img src="images/works/img5.jpg" alt=""></div>
+                                                    <div class="item"><img src="images/works/img6.jpg" alt=""></div>						 
+                                              </div>
+                                          </div>
+                                          <!-- End Carousel-->                                            
+                                            
+										</div>
+                                       <!-- End Tab content 1-->
+                                        
+                                        
+                                       <!-- Start Tab content 2-->
+										<div class="tab-pane" id="tab-content-2">
+											 
+                                            <div class="col-md-4">
+                                                 <div class="tab2-services-box">
+                                                     <div class="media">
+                                                         <img src="images/services1.jpg"  alt="services"/>
+                                                     </div>
+                                                     
+                                                     <div class="services-info">
+                                                         <h4>Our History</h4>
+                                                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                     </div>
+                                                     
+                                                 </div>
+                                            </div>
+                                            
+                                           <div class="col-md-4">
+                                                 <div class="tab2-services-box">
+                                                     <div class="media">
+                                                         <img src="images/services2.jpg"  alt="services"/>
+                                                     </div>
+                                                     
+                                                     <div class="services-info">
+                                                         <h4>What We Do</h4>
+                                                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                     </div>
+                                                     
+                                                 </div>
+                                            </div>
+                                            
+                                            <div class="col-md-4">
+                                                 <div class="tab2-services-box">
+                                                     <div class="media">
+                                                         <img src="images/services3.jpg"  alt="services"/>
+                                                     </div>
+                                                     
+                                                     <div class="services-info">
+                                                         <h4>Our Mission</h4>
+                                                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                     </div>
+                                                     
+                                                 </div>
+                                            </div> 
+                                            	
+										</div>
+                                        
+                                        
+										<div class="tab-pane" id="tab-content-3">
+                                                
+                                       <div class="features-tab3">
+                                        
+                                            <!--Start Features Left-->
+                                            <div class="col-md-4">
+                                                <div class="features-left m-bot-30">
+                                                        <!--Features Item #1-->
+                                                        <div class="features-item">
+                                                            <div class="features-icon"> <i class="fa fa-pagelines"></i> </div>
+                                                            <div class="features-info">
+                                                               <h4>Multipurpose & Responsive</h4>
+                                                               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <!--Features Item #2-->
+                                                        <div class="features-item">
+                                                            <div class="features-icon"> <i class="fa fa-trophy"></i> </div>
+                                                            <div class="features-info">
+                                                               <h4>Creative Design</h4>
+                                                               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
+                                                            </div>
+                                                        </div>
+                                    
+                                                        <!--Features Item #3-->
+                                                        <div class="features-item">
+                                                            <div class="features-icon"> <i class="fa fa-tag"></i> </div>
+                                                            <div class="features-info">
+                                                               <h4>Awesome Theme</h4>
+                                                               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                 </div>
+                                           <!--End Features Left--> 
+                                           
+                                           <!--Start Features Image-->
+                                           <div class="col-md-4 hidden-xs m-bot-30">
+                                                <img src="images/device.png" alt="Features Image" />
+                                           </div>
+                                           <!--End Features Image-->
+                                           
+                                           <!--Start Features Right-->
+                                           <div class="col-md-4">
+                                               <div class="features-right m-bot-30">
+                                                 <!--Features Item #1-->
+                                                <div class="features-item">
+                                                    <div class="features-icon"> <i class="fa fa-eyedropper"></i> </div>
+                                                    <div class="features-info">
+                                                       <h4>Strategy Solutions</h4>
+                                                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
+                                                    </div>
+                                                </div>
+                                
+                                                <!--Features Item #2-->
+                                                <div class="features-item">
+                                                    <div class="features-icon"> <i class="fa fa-search-plus"></i> </div>
+                                                    <div class="features-info">
+                                                       <h4>App Development</h4>
+                                                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
+                                                    </div>
+                                                </div>
+                                
+                                                <!--Features Item #3-->
+                                                <div class="features-item">
+                                                    <div class="features-icon"> <i class="fa fa-send-o"></i> </div>
+                                                    <div class="features-info">
+                                                       <h4>HTML5 & CSS3</h4>
+                                                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
+                                                    </div>
+                                                </div>
+                                                  
+                                               </div>
+                                           </div>
+                                           <!--End Features Right -->
+                                        </div> 
+                                                
+									</div>
+                                        
+										<div class="tab-pane" id="tab-content-4">
+												
+											<div class="tab-content-4">
+                                                
+                                                <div class="col-md-3">
+                                                    <div class="tab4-services-box">
+                                                        <div class="icon"><i class="fa fa-bolt"></i> </div>
+                                                        <div class="info">
+                                                            <h4>Simple and Clean Codes</h4>
+                                                            <p>Vivamus a placerat ante. Duis vulputate nibh sit amet augue vehicula, mattis
+viverra purus tristique.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
-					</a>
+
+
+                                                <div class="col-md-3">
+                                                    <div class="tab4-services-box">
+                                                        <div class="icon"><i class="fa fa-fire"></i> </div>
+                                                        <div class="info">
+                                                            <h4>Responsive Layout Design</h4>
+                                                            <p>Vivamus a placerat ante. Duis vulputate nibh sit amet augue vehicula, mattis
+viverra purus tristique.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3">
+                                                    <div class="tab4-services-box">
+                                                        <div class="icon"><i class="fa fa-chain"></i> </div>
+                                                        <div class="info">
+                                                            <h4>Unlimited Support</h4>
+                                                            <p>Vivamus a placerat ante. Duis vulputate nibh sit amet augue vehicula, mattis
+viverra purus tristique.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3">
+                                                    <div class="tab4-services-box">
+                                                        <div class="icon"><i class="fa fa-shopping-cart"></i> </div>
+                                                        <div class="info">
+                                                            <h4>multipurpose theme</h4>
+                                                            <p>Vivamus a placerat ante. Duis vulputate nibh sit amet augue vehicula, mattis
+viverra purus tristique.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                            </div>	
+                                                
+										</div>
+                                        
+                                        
+										<div class="tab-pane" id="tab-content-5">
+										    
+                                            <div class="tab-content-5">
+                                                
+                                                <div class="col-md-6">
+                                                     <div class="core-features">
+                                                       
+                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod enim a metus adipiscing aliquam. Vestibulum in vestibulum lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod enim a metus adipiscing aliquam. Vestibulum in vestibulum lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod enim a metus adipiscing.</p>
+                                                         
+                                                   <ul class="list">
+                                                        <li>Font-Awesome Integration</li>
+                                                        <li>Multiple unique designs</li>
+                                                        <li>Clean coded, responsive and multipurpose</li>
+                                                        <li>Pages valid on w3c.</li>
+                                                        <li>Well documented.</li>
+                                                        <li>Easy to  customization.</li>
+                                                    </ul>
+                                                         
+                                               </div>
+                                                </div>
+                                                
+                                                
+                                                <div class="col-md-6">
+                                                    <div class="devices-image">
+                                                        <img src="images/device-desktop.png" alt=""/>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            
+										</div>
+                                        
+									</div>
+								</div>
+						  </div>
+                        <!--/.tab-content-main-->  
+					</div>
 				</div>
-				<!--/Lead Card-->
+              
+            </div> <!--/.row-->  
+      </div> <!--/.container-->
+  </section>
+  <!--End Section-->
+  
+   
+     <!--Start History-->
+    <section id="history" class="section parallax">
+		<div class="overlay"></div>
+            <div class="container">
+                
+                 <div class="title-box text-center white">
+                    <h2 class="title">History</h2>
+                 </div>
+                 
+                     <!-- History Timeline -->
+                    <ul class="timeline list-unstyled">
+                        
+                        <li class="year">2020</li>
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Accepted into Da Nang Univ of Science and Technology.</h4>
+                            <p>My major: Infomation Technology - Specific, Business Cooperation.</p>
+                            <span> 04 JUL 2020</span>
+                        </li>
+                        <!-- End Item -->
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Lorem ipsum.</h4>
+                            <p>Lorem ipsum.</p>
+                            <span> 18 OCT 2020</span>
+                        </li>
+                        <!-- End Item -->
+                        
+                        <!-- History Year -->
+                        <li class="year">2021</li>
+                        
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Lorem ipsum.</h4>
+                            <p>Lorem ipsum.</p>
+                            <span> 10 OCT 2021</span>
+                        </li>
+                        <!-- End Item -->
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Lorem ipsum.</h4>
+                            <p>Lorem ipsum.</p>
+                            <span> 11 OCT 2021</span>
+                        </li>
+                        <!-- End Item -->
+                        
+                         <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Lorem ipsum.</h4>
+                            <p>Lorem ipsum.</p>
+                            <span> 18 OCT 2021</span>
+                        </li>
+                        <!-- End Item -->
+                        
+                         <li class="clear"></li>
+                        
+                        <li class="end-icon fa fa-bookmark"></li>
+                    </ul>
+                   <!-- End History Timeline -->
+                   
+           </div> <!--/.container-->
+	</section>
+   <!--End History-->
+   
+
+   <!--Start hobbies-->
+   <section id="hobbies" class="section">
+				<!-- Filtering -->
+                  <div class="title-box text-center">
+                    <h2 class="title">My Hobbies</h2>
+                 </div>
 
 
-				<!--Posts Container-->
-				<div class="flex flex-wrap justify-between pt-12 -mx-6">
-
-					<!--1/3 col -->
-					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/225/800x600" class="h-64 w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">Lorem ipsum.</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum. 
-								</p>
-							</a>
-						</div>
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">Lorem ipsum.</p>
-							</div>
-						</div>
+					<div class=" col-md-12 text-center">
+						<!-- Filtering -->
+						<ul class="filtering">
+							<li class="filter" data-filter="all">All</li>
+							<li class="filter" data-filter="electronics">Electronics</li>
+							<li class="filter" data-filter="computer">Computer</li>
+							<li class="filter" data-filter="photography">Photography</li>
+							<li class="filter" data-filter="cooking">Cooking</li>
+                            <li class="filter" data-filter="sports">Sports</li>
+						</ul>
 					</div>
-				
-					
-					<!--1/3 col -->
-					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/3106804/800x600" class="h-64 w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum.
-								</p>
-							</a>
-							</div>
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">Lorem ipsum.</p>
-							</div>
-						</div>
-					</div>
-
-					<!--1/3 col -->
-					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/539527/800x600" class="h-64 w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full  font-bold text-xl text-gray-900 px-6">Lorem ipsum.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum. 
-								</p>
-							</a>
-						</div>
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">Lorem ipsum.</p>
-							</div>
-						</div>
-					</div>
-
-
-					<!--1/2 col -->
-					<div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
-						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/3657445/800x600" class="h-full w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum. 
-								</p>
-							</a>
-						</div>
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">Lorem ipsum.</p>
-							</div>
-						</div>
-					</div>
-
-					<!--1/2 col -->
-					<div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
-						<div class="flex-1 flex-row bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<a href="#" class="flex flex-wrap no-underline hover:no-underline">	
-								<img src="https://source.unsplash.com/collection/764827/800x600" class="h-full w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum. 
-								</p>
-							</a>
-						</div>
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">Lorem ipsum.</p>
-							</div>
-						</div>
-					</div>
-
-
-
-					<!--2/3 col -->
-					<div class="w-full md:w-2/3 p-6 flex flex-col flex-grow flex-shrink">
-						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<a href="#" class="flex flex-wrap no-underline hover:no-underline">	
-								<img src="https://source.unsplash.com/collection/325867/800x600" class="h-full w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum. 
-								</p>
-							</a>
-						</div>
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">Lorem ipsum.</p>
-							</div>
-						</div>
-					</div>
-
-					<!--1/3 col -->
-					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/1118905/800x600" class="h-full w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum. 
-								</p>
-							</a>
-						</div>
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">Lorem ipsum.</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-				<!--/ Post Content-->
-						
-			</div>
-			
-			
-				<!--Subscribe-->	
-				<div class="container font-sans bg-green-100 rounded mt-8 p-4 md:p-24 text-center">
-					<h2 class="font-bold break-normal text-2xl md:text-4xl">Subscribe me on Github</h2>
-					<h3 class="font-bold break-normal font-normal text-gray-600 text-base md:text-xl">Lorem ipsum.</h3>
-					<div class="w-full text-center pt-4">
-						<form action="#">
-							<div class="max-w-xl mx-auto p-1 pr-0 flex flex-wrap items-center">
-								<input type="email" placeholder="youremail@example.com" class="flex-1 appearance-none rounded shadow p-3 text-gray-600 mr-2 focus:outline-none">
-								<button type="submit" class="flex-1 mt-4 md:mt-0 block md:inline-block appearance-none bg-green-500 text-white text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-green-400">Subscribe</button>
-							</div>
-						</form>
-					</div>
-				</div>
-				<!-- /Subscribe-->
-			
-	
-				<!--Author-->
-				<div class="flex w-full items-center font-sans p-8 md:p-24">
-					<img class="w-10 h-10 rounded-full mr-4" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-					<div class="flex-1">
-						<p class="text-base font-bold text-base md:text-xl leading-none">dtrbinh</p>
-						<p class="text-gray-600 text-xs md:text-base">Lorem ipsum.<a class="text-gray-800 hover:text-green-500 no-underline border-b-2 border-green-500" href="https://www.github.com/dtrbinh">Github</a></p>
-					</div>
-					<div class="justify-end">
-						<button class="bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-2 px-4 rounded-full">Read More</button>
-					</div>
-				</div>
-				<!--/Author-->
-			
-		</div>
-	
-
-	</div>
-
-
-	<footer class="bg-gray-900">	
-		<div class="container max-w-6xl mx-auto flex items-center px-2 py-8">
-
-			<div class="w-full mx-auto flex flex-wrap items-center">
-				<div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
-					<a class="text-gray-900 no-underline hover:text-gray-900 hover:no-underline" href="#">
-						 <span class="text-base text-gray-200">Lorem ipsum.</span>
-					</a>
-				</div>
-				<div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
-					<ul class="list-reset flex justify-center flex-1 md:flex-none items-center">
-					  <li>
-						<a class="inline-block py-2 px-3 text-white no-underline" href="#">Active</a>
-					  </li>
-					  <li>
-						<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="#">link</a>
-					  </li>
-					  <li>
-						<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="#">link</a>
-					  </li>
-						<li>
-						<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="#">link</a>
-					  </li>
-					</ul>
-				</div>
-			</div>
+                
+				<div class="work-main">
+					<!-- Work Grid -->
+					<ul class="work-grid">
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix electronics computer">
+							<div class="work-image">
+                                <img src="images/works/img1.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
         
+                                    <a href="images/works/img1.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
 
-		
-		</div>
-	</footer>
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
 
-	<script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
-	<script src="https://unpkg.com/tippy.js@4"></script>
-	<script>
-		//Init tooltips
-		tippy('.avatar')
-	</script>
-</body>
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                        
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix photography cooking">
+							<div class="work-image">
+                                <img src="images/works/img2.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+        
+                                    <a href="images/works/img2.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                        
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix computer">
+							<div class="work-image">
+                                <img src="images/works/img3.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                   <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+        
+                                    <a href="images/works/img3.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix sports">
+							<div class="work-image">
+                                <img src="images/works/img4.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+        
+                                    <a href="images/works/img4.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                        
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix photography sports">
+							<div class="work-image">
+                                <img src="images/works/img5.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+        
+                                    <a href="images/works/img5.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+						
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix electronics cooking">
+							<div class="work-image">
+                                <img src="images/works/img6.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+        
+                                    <a href="images/works/img6.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix electronics">
+							<div class="work-image">
+                                <img src="images/works/img7.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+        
+                                    <a href="images/works/img7.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix sports">
+							<div class="work-image">
+                                <img src="images/works/img8.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+        
+                                    <a href="images/works/img8.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix photography">
+							<div class="work-image">
+                                <img src="images/works/img9.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+        
+                                    <a href="images/works/img9.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix computer">
+							<div class="work-image">
+                                <img src="images/works/img10.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+        
+                                    <a href="images/works/img10.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix cooking">
+							<div class="work-image">
+                                <img src="images/works/img11.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+        
+                                    <a href="images/works/img11.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix electronics computer">
+							<div class="work-image">
+                                <img src="images/works/img12.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="single-work.html">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+        
+                                    <a href="images/works/img12.jpg" class="popup-image">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                     <h4>Project Title</h4>
+                                     <p>Photography</p>
+                                 </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+					</ul>
+                    
+				</div>
+			</section>
+  <!--End portfolio-->
+ 
+ 
+   <!--Start Call To Action-->
+   <section id="cta" class="parallax">
+       <div class="overlay"></div>
+         <div class="container">
+             <div class="row text-center">
+                 <h2>Relax with music and continue</h2>\
+                 <a href="https://www.youtube.com/watch?v=GgQFO8dL5XQ" target="blank" class="btn btn-green">PLAY</a>
+           </div>
+         </div>
+   </section>
+   <!--End Call To Action-->
+   
+   
+    
+  <!--Start Team-->
+  <section id="team" class="section">
+		<div class="container">
+            <div class="row">
+                    
+             <div class="title-box text-center">
+                <h2 class="title">Team</h2>
+             </div>
+              
+             </div>
+			
+                <!-- Team -->
+				<div class="team-items team-carousel">
+                      <!-- Team Member #1 -->
+                      <div class="item">
+                          <img src="images/team/team1.jpg" alt=""  />
+                          <h4>Tony Stak</h4>
+                          <h5>Enginer</h5>
+                          <p>Lorem ipsum. </p>
+                          
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+                      
+                      <!-- Team Member #2 -->
+                      <div class="item">
+                          <img src="images/team/team2.jpg" alt=""  />
+                          <h4>Robert Bruce Banner</h4>
+                          <h5>Enginer</h5>
+                          <p>Lorem ipsum. </p>
+                          
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+                      
+                      <!-- Team Member #3 -->
+                      <div class="item">
+                          <img src="images/team/team3.jpg" alt=""  />
+                          <h4>Steve Rogers</h4>
+                          <h5>Police</h5>
+                          <p>Lorem ipsum. </p>
+                          
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+                      
+                       <!-- Team Member #4 -->
+                      <div class="item">
+                          <img src="images/team/team4.jpg" alt=""  />
+                          <h4>Peter Parker</h4>
+                          <h5>Student</h5>
+                          <p>Lorem ipsum. </p>
+                          
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+                      
+                       <!-- Team Member #5 -->
+                      <div class="item">
+                          <img src="images/team/team5.jpg" alt=""  />
+                          <h4>Stephen Vincent Strange</h4>
+                          <h5>Doctor</h5>
+                          <p>Lorem ipsum. </p>
+                          
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+                      
+                       <!-- Team Member #6 -->
+                      <div class="item">
+                          <img src="images/team/team6.jpg" alt=""  />
+                          <h4>T'Challa</h4>
+                          <h5>King of Wakanda</h5>
+                          <p>Lorem ipsum. </p>
+                          
+                          <div class="socials">
+                              <ul>
+                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <!-- End Member -->
+				</div>
+                <!-- End Team -->
+			</div>
+            <!-- End Content -->
+	</section>
+  <!--End Team-->
+
+
+    <!--Start Skills-->
+  <section  id="skills" class="section parallax">
+       <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+                    
+             <div class="title-box text-center white">
+                <h2 class="title">Technical Skills</h2>
+             </div>
+              
+                 <!--Skill #1-->
+                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart " data-percent="87">
+                        <span class="percent"></span>
+                    </span>
+                    <h4>Photoshop</h4>
+                    <p>Lorem ipsum.</p>
+                </div>
+                
+                <!--Skill #2-->
+                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="75">
+                        <span class="percent"></span>
+                    </span>
+                    <h4>Wordpress</h4>
+                    <p>Lorem ipsum.</p>
+                </div>
+                
+                <!--Skill #3-->
+                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart " data-percent="60">
+                        <span class="percent"></span>
+                    </span>
+                    <h4>Graphic</h4>
+                    <p>Lorem ipsum.</p>
+                </div>
+                
+                <!--Skill #4-->
+                <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="95">
+                        <span class="percent"></span>
+                    </span>
+                    <h4>Development</h4>
+                    <p>Lorem ipsum.</p>
+                </div>
+
+            
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+  </section> 
+  <!--End Skills-->
+
+ 
+  <!--Start Services-->
+   <section id="services" class="section">
+        <div class="container">
+            <div class="row">
+            
+                 <div class="title-box text-center">
+                    <h2 class="title">Services</h2>
+                 </div>
+              
+               <!--Services Item-->
+               <div class="col-md-4">
+                   <div class="services-box">
+                       <div class="services-icon"> <i class="icon-basket"></i> </div> 
+                       <div class="services-desc">
+                          <h4>Development</h4>
+                          <p>Lorem ipsum dolor consectetur dolor consectetur adipisicing incididunt eiusmod tempor incididunt laboredolore adipisicing. </p>
+                       </div>
+                   </div>
+               </div>
+                <!--End services Item-->
+                
+                <!--Services Item-->
+               <div class="col-md-4">
+                   <div class="services-box">
+                       <div class="services-icon"> <i class="icon-shield"></i> </div> 
+                       <div class="services-desc">
+                          <h4>Web Design</h4>
+                          <p>Lorem ipsum dolor consectetur dolor consectetur adipisicing incididunt eiusmod tempor incididunt laboredolore adipisicing. </p>
+                       </div>
+                   </div>
+               </div>
+               <!--End services Item-->
+               
+               <!--Services Item-->
+               <div class="col-md-4">
+                   <div class="services-box">
+                       <div class="services-icon"> <i class="icon-hotairballoon"></i> </div> 
+                       <div class="services-desc">
+                          <h4>SEO</h4>
+                          <p>Lorem ipsum dolor consectetur dolor consectetur adipisicing incididunt eiusmod tempor incididunt laboredolore adipisicing. </p>
+                       </div>
+                   </div>
+               </div>
+                <!--End services Item-->
+                
+               <!--Services Item -->
+               <div class="col-md-4">
+                   <div class="services-box">
+                       <div class="services-icon"> <i class="icon-global"></i> </div> 
+                       <div class="services-desc">
+                          <h4>Graphic Design</h4>
+                          <p>Lorem ipsum dolor consectetur dolor consectetur adipisicing incididunt eiusmod tempor incididunt laboredolore adipisicing. </p>
+                       </div>
+                   </div>
+               </div>
+               <!--End services Item-->
+               
+               <!--Services Item-->
+               <div class="col-md-4">
+                   <div class="services-box">
+                       <div class="services-icon"> <i class="icon-target"></i> </div> 
+                       <div class="services-desc">
+                          <h4>Content Writing</h4>
+                          <p>Lorem ipsum dolor consectetur dolor consectetur adipisicing incididunt eiusmod tempor incididunt laboredolore adipisicing. </p>
+                       </div>
+                   </div>
+               </div>
+              <!--End services Item-->
+              
+               <!--Services Item -->
+               <div class="col-md-4">
+                   <div class="services-box">
+                       <div class="services-icon"> <i class="icon-aperture"></i> </div> 
+                       <div class="services-desc">
+                          <h4>HTML Basic</h4>
+                          <p>Lorem ipsum dolor consectetur dolor consectetur adipisicing incididunt eiusmod tempor incididunt laboredolore adipisicing. </p>
+                       </div>
+                   </div>
+               </div>
+               <!--End services Item-->
+              
+            </div> <!--/.row-->
+        </div> <!--/.container-->
+   </section> 
+  <!--End Services-->
+
+   
+   <!--Start Contact-->
+   <section id="contact" class="section parallax">
+      <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+           
+                 <div class="title-box text-center white">
+                    <h2 class="title">Contact</h2>
+                 </div>
+             </div>
+
+               <!--Start contact form-->
+               <div class="col-md-8 col-md-offset-2 contact-form">
+               
+                    <div class="contact-info text-center">
+                       <p>0945.067.412</p>
+                       <p>09 Lac Long Quan, Lien Chieu District, Da Nang City</p>
+                       <p>dotranbinhqng02@gmail.com</p>
+                    </div>
+                     
+                     <form method="post">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input class="form-control" id="name" placeholder="Full Name" type="text">
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" id="email" placeholder="Your Email" type="email">
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" id="subject" placeholder="Subject" type="text">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control" id="message" rows="7" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button type="submit" class="btn btn-green">SEND MESSAGE</button>
+                            </div>
+                        </div>
+                    </form>
+               </div>
+              <!--End contact form-->
+              
+       </div> <!-- /.container-->
+   </section>
+   <!--End Contact-->
+   
+   
+   <!--Start Footer-->
+   <footer>
+       <div class="container">
+           <div class="row">
+               <!--Start copyright-->
+               <div class="col-md-6 col-sm-6 col-xs-6">
+                   <div class="copyright"><p>Copyright © 2021 All Rights reserved by: <a href="http://github.com/dtrbinh">dtrbinh - Github</a>
+                 </p></div>
+               </div>
+               <!--End copyright-->
+               
+               <!--start social icons-->
+               <div class="col-md-6 col-sm-6 col-xs-6">
+                   <div class="social-icons">
+                       <ul>
+                        <li><a href="https://www.facebook.com/bin.do.jjw/" target="blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://www.instagram.com/bin_do.02/" target="blank"><i class="fa fa-instagram"></i></a></li>
+                       </ul>
+                    </div>
+               </div>
+               <!--End social icons-->
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+   </footer>
+   <!--End Footer-->
+
+   <a href="#" class="scrollup"> <i class="fa fa-chevron-up"> </i> </a>
+
+    <!--Plugins-->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    
+ </body>
 </html>
+
