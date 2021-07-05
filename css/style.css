@@ -972,7 +972,7 @@ html[xmlns] .slides {
 
 
 /*-----------------------------------------------------------------*/
-/* About
+/* Aboutt me
 /*-----------------------------------------------------------------*/
 
 .features-icon-box {
@@ -1439,7 +1439,7 @@ ul.timeline {
 
 
 /*-----------------------------------------------------------------*/
-/* Works
+/* Hobbies
 /*-----------------------------------------------------------------*/
 
 #works {
@@ -1742,13 +1742,13 @@ ul.timeline {
 	display: inline-block;
 	width: 150px;
 	height: 120px;
-	margin-top:70px;
+	margin-top:80px;
 }
 
 .pie-chart canvas {
 	position: absolute;
-	top: -60px;
-	left: 0;
+	top: -35px;
+	left: 16px;
 	width: 150px;
 	height: 150px;
 	color:#FFF;
