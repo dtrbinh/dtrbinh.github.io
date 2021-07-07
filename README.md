@@ -1,3 +1,3 @@
-# Github webpage
+# Github WebPages
 
-[dtrbinh.github.com](https://dtrbinh.github.io/)
+[Link web](https://dtrbinh.github.io/)
