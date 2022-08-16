@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #f6f6f6;
+}
+
+body #curtains {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 4;
+    overflow: hidden;
+}
+
+body .curtain {
+    position: absolute;
+    height: 100%;
+    width: 200%;
+    background: #1d1d1d;
+    transition: left 500ms ease, right 500ms ease;
+}
+
+body .curtain.left-curtain {
+    transform: skew(-43deg);
+    left: -300%;
+}
+
+body .curtain.right-curtain {
+    transform: skew(-43deg);
+    right: -300%;
+}
+
+body svg {
+    position: relative;
+    z-index: 5;
+    width: 350px;
+    height: 350px;
+}
+
+body svg path {
+    transition: opacity 650ms ease;
+    transition-delay: 100ms;
+}
+
+body .top {
+    opacity: 1;
+    z-index: 2;
+}
+
+body .top.left {
+    fill: url(#orange);
+}
+
+body .top.right {
+    fill: url(#purple);
+}
+
+body .bottom {
+    opacity: 0;
+    z-index: 1;
+}
+
+body .bottom.left {
+    fill: url(#pink);
+}
+
+body .bottom.right {
+    fill: url(#bajablast);
+}
+
+body::after {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 10;
+    padding: 8px 12px;
+    background: rgba(29, 29, 29, 0.75);
+    border-radius: 30px;
+    content: "NIGHT";
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    transition: color 650ms ease, background 650ms ease;
+    transition-delay: 100ms;
+    color: #f6f6f6;
+    opacity: 0.75;
+}
+
+body.dark .curtain.left-curtain {
+    left: -150%;
+}
+
+body.dark .curtain.right-curtain {
+    right: calc(-150% + 1px);
+}
+
+body.dark .top {
+    opacity: 0;
+}
+
+body.dark .bottom {
+    opacity: 1;
+}
+
+body.dark::after {
+    content: "DAY";
+    color: #1d1d1d;
+    background: rgba(246, 246, 246, 0.7);
+}
