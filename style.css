@@ -89,7 +89,7 @@ body::after {
     padding: 8px 12px;
     background: rgba(29, 29, 29, 0.75);
     border-radius: 30px;
-    content: "NIGHT";
+    /* content: "NIGHT"; */
     font-size: 13px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
@@ -118,7 +118,7 @@ body.dark .bottom {
 }
 
 body.dark::after {
-    content: "DAY";
+    /* content: "DAY"; */
     color: #1d1d1d;
     background: rgba(246, 246, 246, 0.7);
 }
